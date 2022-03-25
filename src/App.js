@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
 import SearchBar from "./components/SearchBar/SearchBar";
-import DemoBar from "./components/SearchBar/demoBar";
 import BkoiGlMap from "./components/Map/Map";
 import Box from "@mui/material/Box";
 import {Fragment} from "react";
@@ -12,7 +10,7 @@ function App() {
 			<Box sx={{display: "flex"}}>
 				<SearchBar />
 				{/* <DemoBar /> */}
-				<BkoiGlMap />
+				{/* <BkoiGlMap /> */}
 			</Box>
 		</Fragment>
 	);
